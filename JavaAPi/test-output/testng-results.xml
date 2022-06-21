@@ -1,62 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[--------- First Pull Request  --------- <p>]]>
+      <![CDATA[--------- Second Pull Request --------- <p>]]>
     </line>
     <line>
-      <![CDATA[--------- First Approach --------- <p>]]>
+      <![CDATA[Response Body: {
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}<p>]]>
     </line>
     <line>
       <![CDATA[Status Code: 200<p>]]>
     </line>
     <line>
-      <![CDATA[Content Type: application/json; charset=utf-8<p>]]>
+      <![CDATA[JSON Body being posted: {"password":"pistol","email":"eve.holt@reqres.in"}<p>]]>
     </line>
     <line>
-      <![CDATA[Response Content: {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}<p>]]>
+      <![CDATA[URL: https://reqres.in/api/users<p>]]>
     </line>
     <line>
-      <![CDATA[--------- Second Approach --------- <p>]]>
+      <![CDATA[------------------------------------- <p>]]>
     </line>
     <line>
-      <![CDATA[Response Content: {"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+      <![CDATA[Response Body: {
+    "token": "QpwL5tke4Pnpja7X4"
+}<p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 200<p>]]>
+    </line>
+    <line>
+      <![CDATA[JSON Body being posted: {"password":"cityslicka","email":"eve.holt@reqres.in"}<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api/users<p>]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------- <p>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-20T13:16:02 CDT" name="Default suite" finished-at="2022-06-20T13:16:08 CDT" duration-ms="5795">
+  <suite started-at="2022-06-21T18:53:21 CDT" name="Default suite" finished-at="2022-06-21T18:53:26 CDT" duration-ms="4470">
     <groups>
     </groups>
-    <test started-at="2022-06-20T13:16:02 CDT" name="Default test" finished-at="2022-06-20T13:16:08 CDT" duration-ms="5795">
+    <test started-at="2022-06-21T18:53:21 CDT" name="Default test" finished-at="2022-06-21T18:53:26 CDT" duration-ms="4470">
       <class name="com.unosquare.FirstApiTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.FirstApiTest@3a6bb9bf]" started-at="2022-06-20T13:16:02 CDT" name="beforeMethod" finished-at="2022-06-20T13:16:02 CDT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.FirstApiTest@4944252c]" started-at="2022-06-21T18:53:22 CDT" name="beforeMethod" finished-at="2022-06-21T18:53:22 CDT" duration-ms="864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="firstPullTest()[pri:0, instance:com.unosquare.FirstApiTest@3a6bb9bf]" started-at="2022-06-20T13:16:02 CDT" name="firstPullTest" finished-at="2022-06-20T13:16:08 CDT" duration-ms="5708" status="PASS">
+        <test-method signature="firstPostTest()[pri:2, instance:com.unosquare.FirstApiTest@4944252c]" started-at="2022-06-21T18:53:22 CDT" name="firstPostTest" finished-at="2022-06-21T18:53:26 CDT" duration-ms="3533" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[--------- First Pull Request  --------- <p>]]>
+              <![CDATA[--------- Second Pull Request --------- <p>]]>
             </line>
             <line>
-              <![CDATA[--------- First Approach --------- <p>]]>
+              <![CDATA[Response Body: {
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}<p>]]>
             </line>
             <line>
               <![CDATA[Status Code: 200<p>]]>
             </line>
             <line>
-              <![CDATA[Content Type: application/json; charset=utf-8<p>]]>
+              <![CDATA[JSON Body being posted: {"password":"pistol","email":"eve.holt@reqres.in"}<p>]]>
             </line>
             <line>
-              <![CDATA[Response Content: {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}<p>]]>
+              <![CDATA[URL: https://reqres.in/api/users<p>]]>
             </line>
             <line>
-              <![CDATA[--------- Second Approach --------- <p>]]>
+              <![CDATA[------------------------------------- <p>]]>
             </line>
             <line>
-              <![CDATA[Response Content: {"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+              <![CDATA[Response Body: {
+    "token": "QpwL5tke4Pnpja7X4"
+}<p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 200<p>]]>
+            </line>
+            <line>
+              <![CDATA[JSON Body being posted: {"password":"cityslicka","email":"eve.holt@reqres.in"}<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api/users<p>]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------- <p>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- firstPullTest -->
+        </test-method> <!-- firstPostTest -->
       </class> <!-- com.unosquare.FirstApiTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
