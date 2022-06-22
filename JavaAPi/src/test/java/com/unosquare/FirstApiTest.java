@@ -1,27 +1,60 @@
 package com.unosquare;
 
 import org.testng.annotations.Test;
+
+import apiCore.ApiCore;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import java.io.FileReader;
+import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
+
+
 public class FirstApiTest {
 	
-	@Test(priority = 2, enabled = true)
+	private static ApiCore apiCore;
+	
+	@BeforeSuite
+	  public void beforeSuite() { 
+		  apiCore = new ApiCore();   
+	  }
+	
+	//------------------ Third Pull Request ------------------
+	@Test(priority = 3, enabled = true)
+	  public void sixthApproach() throws IOException, ParseException{	  
+		
+		System.out.println("------------------ Response Post Login ------------------");
+		Reporter.log("--------- Response Post Login  --------- <p>");  
+		
+		String path = CurrentPath("\\src\\main\\java\\Json\\Login.json");
+		try {
+			//Get response after posting data extracted from JSON file
+			Response test = apiCore.response(path, "/login", "POST");
+			Assert.assertEquals(test.statusCode(), 200);
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	  }
+	
+	//------------------ Second Pull Request ------------------
+	@Test(priority = 2, enabled = false)
 	  public void firstPostTest() {
 		  
-		//------------------ Second Pull Request ------------------
 		Reporter.log("--------- Second Pull Request --------- <p>");  
 		
 		int aux = 0;
@@ -74,10 +107,10 @@ public class FirstApiTest {
 		}while(aux<2);
 	}
 	
+	//------------------ First Pull Request ------------------
 	@Test(priority = 1, enabled = false)
 	  public void firstPullTest() {
 		  
-		//------------------ First Pull Request ------------------
 		Reporter.log("--------- First Pull Request  --------- <p>");
 		Reporter.log("--------- First Approach --------- <p>");
 		

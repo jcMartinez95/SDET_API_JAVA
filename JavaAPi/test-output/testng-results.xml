@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[--------- Second Pull Request --------- <p>]]>
+      <![CDATA[--------- Response Post Login  --------- <p>]]>
     </line>
     <line>
-      <![CDATA[Response Body: {
-    "id": 4,
-    "token": "QpwL5tke4Pnpja7X4"
-}<p>]]>
+      <![CDATA[Client request: {"password":"cityslicka","email":"eve.holt@reqres.in"}<p>]]>
     </line>
     <line>
       <![CDATA[Status Code: 200<p>]]>
-    </line>
-    <line>
-      <![CDATA[JSON Body being posted: {"password":"pistol","email":"eve.holt@reqres.in"}<p>]]>
-    </line>
-    <line>
-      <![CDATA[URL: https://reqres.in/api/users<p>]]>
-    </line>
-    <line>
-      <![CDATA[------------------------------------- <p>]]>
     </line>
     <line>
       <![CDATA[Response Body: {
@@ -28,49 +16,35 @@
 }<p>]]>
     </line>
     <line>
-      <![CDATA[Status Code: 200<p>]]>
+      <![CDATA[URL: https://reqres.in/api/login<p>]]>
     </line>
     <line>
-      <![CDATA[JSON Body being posted: {"password":"cityslicka","email":"eve.holt@reqres.in"}<p>]]>
-    </line>
-    <line>
-      <![CDATA[URL: https://reqres.in/api/users<p>]]>
-    </line>
-    <line>
-      <![CDATA[------------------------------------- <p>]]>
+      <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Login.json<p>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-21T18:53:21 CDT" name="Default suite" finished-at="2022-06-21T18:53:26 CDT" duration-ms="4470">
+  <suite started-at="2022-06-22T18:47:55 CDT" name="Default suite" finished-at="2022-06-22T18:48:00 CDT" duration-ms="4610">
     <groups>
     </groups>
-    <test started-at="2022-06-21T18:53:21 CDT" name="Default test" finished-at="2022-06-21T18:53:26 CDT" duration-ms="4470">
+    <test started-at="2022-06-22T18:47:55 CDT" name="Default test" finished-at="2022-06-22T18:48:00 CDT" duration-ms="4610">
       <class name="com.unosquare.FirstApiTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.FirstApiTest@4944252c]" started-at="2022-06-21T18:53:22 CDT" name="beforeMethod" finished-at="2022-06-21T18:53:22 CDT" duration-ms="864" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.unosquare.FirstApiTest@7e5afaa6]" started-at="2022-06-22T18:47:55 CDT" name="beforeSuite" finished-at="2022-06-22T18:47:55 CDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.FirstApiTest@7e5afaa6]" started-at="2022-06-22T18:47:55 CDT" name="beforeMethod" finished-at="2022-06-22T18:47:56 CDT" duration-ms="843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="firstPostTest()[pri:2, instance:com.unosquare.FirstApiTest@4944252c]" started-at="2022-06-21T18:53:22 CDT" name="firstPostTest" finished-at="2022-06-21T18:53:26 CDT" duration-ms="3533" status="PASS">
+        <test-method signature="sixthApproach()[pri:3, instance:com.unosquare.FirstApiTest@7e5afaa6]" started-at="2022-06-22T18:47:56 CDT" name="sixthApproach" finished-at="2022-06-22T18:48:00 CDT" duration-ms="3715" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[--------- Second Pull Request --------- <p>]]>
+              <![CDATA[--------- Response Post Login  --------- <p>]]>
             </line>
             <line>
-              <![CDATA[Response Body: {
-    "id": 4,
-    "token": "QpwL5tke4Pnpja7X4"
-}<p>]]>
+              <![CDATA[Client request: {"password":"cityslicka","email":"eve.holt@reqres.in"}<p>]]>
             </line>
             <line>
               <![CDATA[Status Code: 200<p>]]>
-            </line>
-            <line>
-              <![CDATA[JSON Body being posted: {"password":"pistol","email":"eve.holt@reqres.in"}<p>]]>
-            </line>
-            <line>
-              <![CDATA[URL: https://reqres.in/api/users<p>]]>
-            </line>
-            <line>
-              <![CDATA[------------------------------------- <p>]]>
             </line>
             <line>
               <![CDATA[Response Body: {
@@ -78,19 +52,13 @@
 }<p>]]>
             </line>
             <line>
-              <![CDATA[Status Code: 200<p>]]>
+              <![CDATA[URL: https://reqres.in/api/login<p>]]>
             </line>
             <line>
-              <![CDATA[JSON Body being posted: {"password":"cityslicka","email":"eve.holt@reqres.in"}<p>]]>
-            </line>
-            <line>
-              <![CDATA[URL: https://reqres.in/api/users<p>]]>
-            </line>
-            <line>
-              <![CDATA[------------------------------------- <p>]]>
+              <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Login.json<p>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- firstPostTest -->
+        </test-method> <!-- sixthApproach -->
       </class> <!-- com.unosquare.FirstApiTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
