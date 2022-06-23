@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.unosquare.FinalPullRequest">
+      <class name="com.unosquare.FirstApiPull">
         <methods>
-          <include name="finalPullRequest_PUT_1"/>
-          <include name="beforeSuite"/>
+          <include name="firstPullTest"/>
         </methods>
-      </class> <!-- com.unosquare.FinalPullRequest -->
+      </class> <!-- com.unosquare.FirstApiPull -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

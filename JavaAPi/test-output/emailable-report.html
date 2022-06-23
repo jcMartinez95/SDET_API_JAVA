@@ -8,13 +8,113 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">4,610</td><td></td><td></td></tr>
+<tr><th colspan="8">JavaAPi</th></tr>
+<tr><td><a href="#t0">JavaApiTests - First API Pull </a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5,429</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">JavaApiTests - Second API Pull </a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1,370</td><td></td><td></td></tr>
+<tr><td><a href="#t2">JavaApiTests - Third API Pull </a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">591</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">JavaApiTests - Fourth API Pull </a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">14,458</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">14</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">21,848</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.unosquare.FirstApiTest</td><td><a href="#m0">sixthApproach</a></td><td rowspan="1">1655941676543</td><td rowspan="1">3715</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">JavaAPi</th></tr></tbody><tbody id="t0"><tr><th colspan="4">JavaApiTests - First API Pull  &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.unosquare.FirstApiPull</td><td><a href="#m0">firstPullRequest_firstApproach</a></td><td rowspan="1">1656011539652</td><td rowspan="1">4025</td></tr><tr class="passedeven"><td><a href="#m1">firstPullRequest_secondApproach</a></td><td rowspan="1">1656011543689</td><td rowspan="1">471</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">JavaApiTests - Second API Pull  &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.unosquare.SecondApiPull</td><td><a href="#m2">secondPullRequest_firstApproach</a></td><td rowspan="1">1656011544302</td><td rowspan="1">754</td></tr><tr class="passedeven"><td><a href="#m3">secondPullRequest_secondApproach</a></td><td rowspan="1">1656011545059</td><td rowspan="1">607</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">JavaApiTests - Third API Pull  &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.unosquare.ThirdApiPull</td><td><a href="#m4">thirdPullRequest</a></td><td rowspan="1">1656011545685</td><td rowspan="1">587</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">JavaApiTests - Fourth API Pull  &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">com.unosquare.FourthApiPull</td><td><a href="#m5">finalPullRequest_GET_1</a></td><td rowspan="1">1656011546288</td><td rowspan="1">649</td></tr><tr class="passedeven"><td><a href="#m6">finalPullRequest_GET_2</a></td><td rowspan="1">1656011546939</td><td rowspan="1">362</td></tr><tr class="passedeven"><td><a href="#m7">finalPullRequest_GET_3</a></td><td rowspan="1">1656011547303</td><td rowspan="1">428</td></tr><tr class="passedeven"><td><a href="#m8">finalPullRequest_GET_4</a></td><td rowspan="1">1656011547732</td><td rowspan="1">4703</td></tr><tr class="passedeven"><td><a href="#m9">finalPullRequest_POST_1</a></td><td rowspan="1">1656011552437</td><td rowspan="1">611</td></tr><tr class="passedeven"><td><a href="#m10">finalPullRequest_POST_2</a></td><td rowspan="1">1656011553050</td><td rowspan="1">5828</td></tr><tr class="passedeven"><td><a href="#m11">finalPullRequest_POST_3</a></td><td rowspan="1">1656011558880</td><td rowspan="1">590</td></tr><tr class="passedeven"><td><a href="#m12">finalPullRequest_POST_4</a></td><td rowspan="1">1656011559471</td><td rowspan="1">570</td></tr><tr class="passedeven"><td><a href="#m13">finalPullRequest_PUT_1</a></td><td rowspan="1">1656011560043</td><td rowspan="1">700</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.unosquare.FirstApiTest#sixthApproach</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Response Post Login  --------- <p><br/>Client request: {"password":"cityslicka","email":"eve.holt@reqres.in"}<p><br/>Status Code: 200<p><br/>Response Body: {
+<h2>JavaApiTests - First API Pull </h2><h3 id="m0">com.unosquare.FirstApiPull#firstPullRequest_firstApproach</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- First Pull Request  --------- <p><br/>--------- First Approach --------- <p><br/>Status Code: 200<p><br/>Content Type: application/json; charset=utf-8<p><br/>Response Content: {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}<p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.unosquare.FirstApiPull#firstPullRequest_secondApproach</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Second Approach --------- <p><br/>Status Code: 200<p><br/>Content Type: application/json; charset=utf-8<p><br/>Response Content: {"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}<p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>JavaApiTests - Second API Pull </h2><h3 id="m2">com.unosquare.SecondApiPull#secondPullRequest_firstApproach</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Second Pull Request --------- <p><br/>--------- First Approach --------- <p><br/>Response Body: {
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}<p><br/>Status Code: 200<p><br/>JSON Body being posted: {"password":"pistol","email":"eve.holt@reqres.in"}<p><br/>URL: https://reqres.in/api/users<p><br/>------------------------------------- <p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.unosquare.SecondApiPull#secondPullRequest_secondApproach</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Second Approach --------- <p><br/>Response Body: {
+    "token": "QpwL5tke4Pnpja7X4"
+}<p><br/>Status Code: 200<p><br/>JSON Body being posted: {"password":"cityslicka","email":"eve.holt@reqres.in"}<p><br/>URL: https://reqres.in/api/users<p><br/>------------------------------------- <p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>JavaApiTests - Third API Pull </h2><h3 id="m4">com.unosquare.ThirdApiPull#thirdPullRequest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Third Pull Request  --------- <p><br/>Client request: {"password":"cityslicka","email":"eve.holt@reqres.in"}<p><br/>Status Code: 200<p><br/>Response Body: {
     "token": "QpwL5tke4Pnpja7X4"
 }<p><br/>URL: https://reqres.in/api/login<p><br/>File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Login.json<p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>JavaApiTests - Fourth API Pull </h2><h3 id="m5">com.unosquare.FourthApiPull#finalPullRequest_GET_1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Final Pull Request - First GET --------- <p><br/>Client request: {"data":{"last_name":"Weaver","id":2,"avatar":"https:\/\/reqres.in\/img\/faces\/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"}}<p><br/>Status Code: 200<p><br/>Response Body: {
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}<p><br/>URL: https://reqres.in/api/users/2<p><br/>File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Get\FirstGet.json<p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.unosquare.FourthApiPull#finalPullRequest_GET_2</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Final Pull Request - Second GET --------- <p><br/>Client request: {"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https:\/\/reqres.in\/#support-heading"}}<p><br/>Status Code: 200<p><br/>Response Body: {
+    "data": {
+        "id": 5,
+        "email": "charles.morris@reqres.in",
+        "first_name": "Charles",
+        "last_name": "Morris",
+        "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}<p><br/>URL: https://reqres.in/api/users/5?page=2<p><br/>File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Get\SecondGet.json<p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.unosquare.FourthApiPull#finalPullRequest_GET_3</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Final Pull Request - Third GET --------- <p><br/>Status Code: 200<p><br/>Response Body: {
+    "data": {
+        "id": 7,
+        "email": "michael.lawson@reqres.in",
+        "first_name": "Michael",
+        "last_name": "Lawson",
+        "avatar": "https://reqres.in/img/faces/7-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}<p><br/>URL: https://reqres.in/api/users/7?page=3<p><br/>File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Get\ThirdGet.json<p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.unosquare.FourthApiPull#finalPullRequest_GET_4</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Final Pull Request - Fourth GET --------- <p><br/>Status Code: 200<p><br/>Response Body: {
+    "data": {
+        "id": 2,
+        "name": "fuchsia rose",
+        "year": 2001,
+        "color": "#C74375",
+        "pantone_value": "17-2031"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}<p><br/>URL: https://reqres.in/api/unknown/2?delay=4<p><br/>File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Get\FourthGet.json<p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.unosquare.FourthApiPull#finalPullRequest_POST_1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Final Pull Request - First POST --------- <p><br/>Client request: {"name":"Carlos","job":"java"}<p><br/>Status Code: 201<p><br/>Response Body: {
+    "name": "Carlos",
+    "job": "java",
+    "id": "132",
+    "createdAt": "2022-06-23T19:12:25.961Z"
+}<p><br/>URL: https://reqres.in/api/users<p><br/>File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Post\FirstPost.json<p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.unosquare.FourthApiPull#finalPullRequest_POST_2</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Final Pull Request - Second POST --------- <p><br/>Status Code: 201<p><br/>Response Body: {
+    "name": "Ileanna",
+    "lastName": "Garcia",
+    "job": "Maestra",
+    "dateOfBirth": "22/05/1998",
+    "startDate": "16/05/2022",
+    "vacationDays": 7,
+    "id": "743",
+    "createdAt": "2022-06-23T19:12:31.698Z"
+}<p><br/>URL: https://reqres.in/api/users?delay=5<p><br/>File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Post\SecondPost.json<p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.unosquare.FourthApiPull#finalPullRequest_POST_3</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Final Pull Request - Third POST --------- <p><br/>Client request: {"password":"pistol","email":"eve.holt@reqres.in"}<p><br/>Status Code: 200<p><br/>Response Body: {
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}<p><br/>URL: https://reqres.in/api/register<p><br/>File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Post\ThirdPost.json<p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.unosquare.FourthApiPull#finalPullRequest_POST_4</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Final Pull Request - Fourth POST --------- <p><br/>Status Code: 200<p><br/>Response Body: {
+    "token": "QpwL5tke4Pnpja7X4"
+}<p><br/>URL: https://reqres.in/api/login<p><br/>File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Post\FourthPost.json<p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.unosquare.FourthApiPull#finalPullRequest_PUT_1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">--------- Final Pull Request - First PUT --------- <p><br/>Status Code: 200<p><br/>Response Body: {
+    "name": "Fani",
+    "lastName": "Lara",
+    "job": "Turismo",
+    "dateOfBirth": "22/04/2000",
+    "startDate": "02/20/2022",
+    "vacationDays": 7,
+    "updatedAt": "2022-06-23T19:12:33.597Z"
+}<p><br/>URL: https://reqres.in/api/users/2<p><br/>File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Put\FirstPut.json<p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

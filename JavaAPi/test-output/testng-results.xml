@@ -1,8 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[--------- Response Post Login  --------- <p>]]>
+      <![CDATA[--------- First Pull Request  --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- First Approach --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 200<p>]]>
+    </line>
+    <line>
+      <![CDATA[Content Type: application/json; charset=utf-8<p>]]>
+    </line>
+    <line>
+      <![CDATA[Response Content: {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}<p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- Second Approach --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 200<p>]]>
+    </line>
+    <line>
+      <![CDATA[Content Type: application/json; charset=utf-8<p>]]>
+    </line>
+    <line>
+      <![CDATA[Response Content: {"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}<p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- Second Pull Request --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- First Approach --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}<p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 200<p>]]>
+    </line>
+    <line>
+      <![CDATA[JSON Body being posted: {"password":"pistol","email":"eve.holt@reqres.in"}<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api/users<p>]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- Second Approach --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {
+    "token": "QpwL5tke4Pnpja7X4"
+}<p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 200<p>]]>
+    </line>
+    <line>
+      <![CDATA[JSON Body being posted: {"password":"cityslicka","email":"eve.holt@reqres.in"}<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api/users<p>]]>
+    </line>
+    <line>
+      <![CDATA[------------------------------------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- Third Pull Request  --------- <p>]]>
     </line>
     <line>
       <![CDATA[Client request: {"password":"cityslicka","email":"eve.holt@reqres.in"}<p>]]>
@@ -21,24 +92,349 @@
     <line>
       <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Login.json<p>]]>
     </line>
+    <line>
+      <![CDATA[--------- Final Pull Request - First GET --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[Client request: {"data":{"last_name":"Weaver","id":2,"avatar":"https:\/\/reqres.in\/img\/faces\/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"}}<p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 200<p>]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api/users/2<p>]]>
+    </line>
+    <line>
+      <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Get\FirstGet.json<p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- Final Pull Request - Second GET --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[Client request: {"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https:\/\/reqres.in\/#support-heading"}}<p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 200<p>]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {
+    "data": {
+        "id": 5,
+        "email": "charles.morris@reqres.in",
+        "first_name": "Charles",
+        "last_name": "Morris",
+        "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api/users/5?page=2<p>]]>
+    </line>
+    <line>
+      <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Get\SecondGet.json<p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- Final Pull Request - Third GET --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 200<p>]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {
+    "data": {
+        "id": 7,
+        "email": "michael.lawson@reqres.in",
+        "first_name": "Michael",
+        "last_name": "Lawson",
+        "avatar": "https://reqres.in/img/faces/7-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api/users/7?page=3<p>]]>
+    </line>
+    <line>
+      <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Get\ThirdGet.json<p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- Final Pull Request - Fourth GET --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 200<p>]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {
+    "data": {
+        "id": 2,
+        "name": "fuchsia rose",
+        "year": 2001,
+        "color": "#C74375",
+        "pantone_value": "17-2031"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api/unknown/2?delay=4<p>]]>
+    </line>
+    <line>
+      <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Get\FourthGet.json<p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- Final Pull Request - First POST --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[Client request: {"name":"Carlos","job":"java"}<p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 201<p>]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {
+    "name": "Carlos",
+    "job": "java",
+    "id": "132",
+    "createdAt": "2022-06-23T19:12:25.961Z"
+}<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api/users<p>]]>
+    </line>
+    <line>
+      <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Post\FirstPost.json<p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- Final Pull Request - Second POST --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 201<p>]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {
+    "name": "Ileanna",
+    "lastName": "Garcia",
+    "job": "Maestra",
+    "dateOfBirth": "22/05/1998",
+    "startDate": "16/05/2022",
+    "vacationDays": 7,
+    "id": "743",
+    "createdAt": "2022-06-23T19:12:31.698Z"
+}<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api/users?delay=5<p>]]>
+    </line>
+    <line>
+      <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Post\SecondPost.json<p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- Final Pull Request - Third POST --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[Client request: {"password":"pistol","email":"eve.holt@reqres.in"}<p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 200<p>]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api/register<p>]]>
+    </line>
+    <line>
+      <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Post\ThirdPost.json<p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- Final Pull Request - Fourth POST --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 200<p>]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {
+    "token": "QpwL5tke4Pnpja7X4"
+}<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api/login<p>]]>
+    </line>
+    <line>
+      <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Post\FourthPost.json<p>]]>
+    </line>
+    <line>
+      <![CDATA[--------- Final Pull Request - First PUT --------- <p>]]>
+    </line>
+    <line>
+      <![CDATA[Status Code: 200<p>]]>
+    </line>
+    <line>
+      <![CDATA[Response Body: {
+    "name": "Fani",
+    "lastName": "Lara",
+    "job": "Turismo",
+    "dateOfBirth": "22/04/2000",
+    "startDate": "02/20/2022",
+    "vacationDays": 7,
+    "updatedAt": "2022-06-23T19:12:33.597Z"
+}<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api/users/2<p>]]>
+    </line>
+    <line>
+      <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Put\FirstPut.json<p>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-06-22T18:47:55 CDT" name="Default suite" finished-at="2022-06-22T18:48:00 CDT" duration-ms="4610">
+  <suite started-at="2022-06-23T14:12:18 CDT" name="JavaAPi" finished-at="2022-06-23T14:12:40 CDT" duration-ms="22009">
     <groups>
     </groups>
-    <test started-at="2022-06-22T18:47:55 CDT" name="Default test" finished-at="2022-06-22T18:48:00 CDT" duration-ms="4610">
-      <class name="com.unosquare.FirstApiTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.unosquare.FirstApiTest@7e5afaa6]" started-at="2022-06-22T18:47:55 CDT" name="beforeSuite" finished-at="2022-06-22T18:47:55 CDT" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.FirstApiTest@7e5afaa6]" started-at="2022-06-22T18:47:55 CDT" name="beforeMethod" finished-at="2022-06-22T18:47:56 CDT" duration-ms="843" status="PASS">
+    <test started-at="2022-06-23T14:12:18 CDT" name="JavaApiTests - First API Pull " finished-at="2022-06-23T14:12:24 CDT" duration-ms="5429">
+      <class name="com.unosquare.FirstApiPull">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.FirstApiPull@120f102b]" started-at="2022-06-23T14:12:18 CDT" name="beforeMethod" finished-at="2022-06-23T14:12:19 CDT" duration-ms="869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="sixthApproach()[pri:3, instance:com.unosquare.FirstApiTest@7e5afaa6]" started-at="2022-06-22T18:47:56 CDT" name="sixthApproach" finished-at="2022-06-22T18:48:00 CDT" duration-ms="3715" status="PASS">
+        <test-method signature="firstPullRequest_firstApproach()[pri:1, instance:com.unosquare.FirstApiPull@120f102b]" started-at="2022-06-23T14:12:19 CDT" name="firstPullRequest_firstApproach" finished-at="2022-06-23T14:12:23 CDT" duration-ms="4025" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[--------- Response Post Login  --------- <p>]]>
+              <![CDATA[--------- First Pull Request  --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[--------- First Approach --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 200<p>]]>
+            </line>
+            <line>
+              <![CDATA[Content Type: application/json; charset=utf-8<p>]]>
+            </line>
+            <line>
+              <![CDATA[Response Content: {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- firstPullRequest_firstApproach -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.FirstApiPull@120f102b]" started-at="2022-06-23T14:12:23 CDT" name="beforeMethod" finished-at="2022-06-23T14:12:23 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="firstPullRequest_secondApproach()[pri:2, instance:com.unosquare.FirstApiPull@120f102b]" started-at="2022-06-23T14:12:23 CDT" name="firstPullRequest_secondApproach" finished-at="2022-06-23T14:12:24 CDT" duration-ms="471" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------- Second Approach --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 200<p>]]>
+            </line>
+            <line>
+              <![CDATA[Content Type: application/json; charset=utf-8<p>]]>
+            </line>
+            <line>
+              <![CDATA[Response Content: {"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- firstPullRequest_secondApproach -->
+      </class> <!-- com.unosquare.FirstApiPull -->
+    </test> <!-- JavaApiTests - First API Pull  -->
+    <test started-at="2022-06-23T14:12:24 CDT" name="JavaApiTests - Second API Pull " finished-at="2022-06-23T14:12:25 CDT" duration-ms="1370">
+      <class name="com.unosquare.SecondApiPull">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.SecondApiPull@18d87d80]" started-at="2022-06-23T14:12:24 CDT" name="beforeMethod" finished-at="2022-06-23T14:12:24 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="secondPullRequest_firstApproach()[pri:1, instance:com.unosquare.SecondApiPull@18d87d80]" started-at="2022-06-23T14:12:24 CDT" name="secondPullRequest_firstApproach" finished-at="2022-06-23T14:12:25 CDT" duration-ms="754" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------- Second Pull Request --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[--------- First Approach --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}<p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 200<p>]]>
+            </line>
+            <line>
+              <![CDATA[JSON Body being posted: {"password":"pistol","email":"eve.holt@reqres.in"}<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api/users<p>]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------- <p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- secondPullRequest_firstApproach -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.SecondApiPull@18d87d80]" started-at="2022-06-23T14:12:25 CDT" name="beforeMethod" finished-at="2022-06-23T14:12:25 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="secondPullRequest_secondApproach()[pri:2, instance:com.unosquare.SecondApiPull@18d87d80]" started-at="2022-06-23T14:12:25 CDT" name="secondPullRequest_secondApproach" finished-at="2022-06-23T14:12:25 CDT" duration-ms="607" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------- Second Approach --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {
+    "token": "QpwL5tke4Pnpja7X4"
+}<p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 200<p>]]>
+            </line>
+            <line>
+              <![CDATA[JSON Body being posted: {"password":"cityslicka","email":"eve.holt@reqres.in"}<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api/users<p>]]>
+            </line>
+            <line>
+              <![CDATA[------------------------------------- <p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- secondPullRequest_secondApproach -->
+      </class> <!-- com.unosquare.SecondApiPull -->
+    </test> <!-- JavaApiTests - Second API Pull  -->
+    <test started-at="2022-06-23T14:12:25 CDT" name="JavaApiTests - Third API Pull " finished-at="2022-06-23T14:12:26 CDT" duration-ms="591">
+      <class name="com.unosquare.ThirdApiPull">
+        <test-method signature="thirdPullRequest()[pri:1, instance:com.unosquare.ThirdApiPull@2ed2d9cb]" started-at="2022-06-23T14:12:25 CDT" name="thirdPullRequest" finished-at="2022-06-23T14:12:26 CDT" duration-ms="587" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------- Third Pull Request  --------- <p>]]>
             </line>
             <line>
               <![CDATA[Client request: {"password":"cityslicka","email":"eve.holt@reqres.in"}<p>]]>
@@ -58,8 +454,288 @@
               <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Login.json<p>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- sixthApproach -->
-      </class> <!-- com.unosquare.FirstApiTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- thirdPullRequest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.ThirdApiPull@2ed2d9cb]" started-at="2022-06-23T14:12:25 CDT" name="beforeMethod" finished-at="2022-06-23T14:12:25 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+      </class> <!-- com.unosquare.ThirdApiPull -->
+    </test> <!-- JavaApiTests - Third API Pull  -->
+    <test started-at="2022-06-23T14:12:26 CDT" name="JavaApiTests - Fourth API Pull " finished-at="2022-06-23T14:12:40 CDT" duration-ms="14458">
+      <class name="com.unosquare.FourthApiPull">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.unosquare.FourthApiPull@3c7f66c4]" started-at="2022-06-23T14:12:18 CDT" name="beforeSuite" finished-at="2022-06-23T14:12:18 CDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:com.unosquare.FourthApiPull@3c7f66c4]" started-at="2022-06-23T14:12:26 CDT" name="beforeTests" finished-at="2022-06-23T14:12:26 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method signature="finalPullRequest_GET_1()[pri:1, instance:com.unosquare.FourthApiPull@3c7f66c4]" started-at="2022-06-23T14:12:26 CDT" name="finalPullRequest_GET_1" finished-at="2022-06-23T14:12:26 CDT" duration-ms="649" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------- Final Pull Request - First GET --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[Client request: {"data":{"last_name":"Weaver","id":2,"avatar":"https:\/\/reqres.in\/img\/faces\/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"}}<p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 200<p>]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api/users/2<p>]]>
+            </line>
+            <line>
+              <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Get\FirstGet.json<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finalPullRequest_GET_1 -->
+        <test-method signature="finalPullRequest_GET_2()[pri:2, instance:com.unosquare.FourthApiPull@3c7f66c4]" started-at="2022-06-23T14:12:26 CDT" name="finalPullRequest_GET_2" finished-at="2022-06-23T14:12:27 CDT" duration-ms="362" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------- Final Pull Request - Second GET --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[Client request: {"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https:\/\/reqres.in\/#support-heading"}}<p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 200<p>]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {
+    "data": {
+        "id": 5,
+        "email": "charles.morris@reqres.in",
+        "first_name": "Charles",
+        "last_name": "Morris",
+        "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api/users/5?page=2<p>]]>
+            </line>
+            <line>
+              <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Get\SecondGet.json<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finalPullRequest_GET_2 -->
+        <test-method signature="finalPullRequest_GET_3()[pri:3, instance:com.unosquare.FourthApiPull@3c7f66c4]" started-at="2022-06-23T14:12:27 CDT" name="finalPullRequest_GET_3" finished-at="2022-06-23T14:12:27 CDT" duration-ms="428" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------- Final Pull Request - Third GET --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 200<p>]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {
+    "data": {
+        "id": 7,
+        "email": "michael.lawson@reqres.in",
+        "first_name": "Michael",
+        "last_name": "Lawson",
+        "avatar": "https://reqres.in/img/faces/7-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api/users/7?page=3<p>]]>
+            </line>
+            <line>
+              <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Get\ThirdGet.json<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finalPullRequest_GET_3 -->
+        <test-method signature="finalPullRequest_GET_4()[pri:4, instance:com.unosquare.FourthApiPull@3c7f66c4]" started-at="2022-06-23T14:12:27 CDT" name="finalPullRequest_GET_4" finished-at="2022-06-23T14:12:32 CDT" duration-ms="4703" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------- Final Pull Request - Fourth GET --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 200<p>]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {
+    "data": {
+        "id": 2,
+        "name": "fuchsia rose",
+        "year": 2001,
+        "color": "#C74375",
+        "pantone_value": "17-2031"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api/unknown/2?delay=4<p>]]>
+            </line>
+            <line>
+              <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Get\FourthGet.json<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finalPullRequest_GET_4 -->
+        <test-method signature="finalPullRequest_POST_1()[pri:5, instance:com.unosquare.FourthApiPull@3c7f66c4]" started-at="2022-06-23T14:12:32 CDT" name="finalPullRequest_POST_1" finished-at="2022-06-23T14:12:33 CDT" duration-ms="611" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------- Final Pull Request - First POST --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[Client request: {"name":"Carlos","job":"java"}<p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 201<p>]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {
+    "name": "Carlos",
+    "job": "java",
+    "id": "132",
+    "createdAt": "2022-06-23T19:12:25.961Z"
+}<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api/users<p>]]>
+            </line>
+            <line>
+              <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Post\FirstPost.json<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finalPullRequest_POST_1 -->
+        <test-method signature="finalPullRequest_POST_2()[pri:6, instance:com.unosquare.FourthApiPull@3c7f66c4]" started-at="2022-06-23T14:12:33 CDT" name="finalPullRequest_POST_2" finished-at="2022-06-23T14:12:38 CDT" duration-ms="5828" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------- Final Pull Request - Second POST --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 201<p>]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {
+    "name": "Ileanna",
+    "lastName": "Garcia",
+    "job": "Maestra",
+    "dateOfBirth": "22/05/1998",
+    "startDate": "16/05/2022",
+    "vacationDays": 7,
+    "id": "743",
+    "createdAt": "2022-06-23T19:12:31.698Z"
+}<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api/users?delay=5<p>]]>
+            </line>
+            <line>
+              <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Post\SecondPost.json<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finalPullRequest_POST_2 -->
+        <test-method signature="finalPullRequest_POST_3()[pri:7, instance:com.unosquare.FourthApiPull@3c7f66c4]" started-at="2022-06-23T14:12:38 CDT" name="finalPullRequest_POST_3" finished-at="2022-06-23T14:12:39 CDT" duration-ms="590" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------- Final Pull Request - Third POST --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[Client request: {"password":"pistol","email":"eve.holt@reqres.in"}<p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 200<p>]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api/register<p>]]>
+            </line>
+            <line>
+              <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Post\ThirdPost.json<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finalPullRequest_POST_3 -->
+        <test-method signature="finalPullRequest_POST_4()[pri:8, instance:com.unosquare.FourthApiPull@3c7f66c4]" started-at="2022-06-23T14:12:39 CDT" name="finalPullRequest_POST_4" finished-at="2022-06-23T14:12:40 CDT" duration-ms="570" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------- Final Pull Request - Fourth POST --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 200<p>]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {
+    "token": "QpwL5tke4Pnpja7X4"
+}<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api/login<p>]]>
+            </line>
+            <line>
+              <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Post\FourthPost.json<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finalPullRequest_POST_4 -->
+        <test-method signature="finalPullRequest_PUT_1()[pri:9, instance:com.unosquare.FourthApiPull@3c7f66c4]" started-at="2022-06-23T14:12:40 CDT" name="finalPullRequest_PUT_1" finished-at="2022-06-23T14:12:40 CDT" duration-ms="700" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--------- Final Pull Request - First PUT --------- <p>]]>
+            </line>
+            <line>
+              <![CDATA[Status Code: 200<p>]]>
+            </line>
+            <line>
+              <![CDATA[Response Body: {
+    "name": "Fani",
+    "lastName": "Lara",
+    "job": "Turismo",
+    "dateOfBirth": "22/04/2000",
+    "startDate": "02/20/2022",
+    "vacationDays": 7,
+    "updatedAt": "2022-06-23T19:12:33.597Z"
+}<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api/users/2<p>]]>
+            </line>
+            <line>
+              <![CDATA[File Path: C:\Users\carlos.martinez\git\SDET_API_JAVA\JavaAPi\src\main\java\Json\Put\FirstPut.json<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finalPullRequest_PUT_1 -->
+      </class> <!-- com.unosquare.FourthApiPull -->
+      <class name="com.unosquare.ThirdApiPull">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.unosquare.ThirdApiPull@2ed2d9cb]" started-at="2022-06-23T14:12:18 CDT" name="beforeSuite" finished-at="2022-06-23T14:12:18 CDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- com.unosquare.ThirdApiPull -->
+    </test> <!-- JavaApiTests - Fourth API Pull  -->
+  </suite> <!-- JavaAPi -->
 </testng-results>

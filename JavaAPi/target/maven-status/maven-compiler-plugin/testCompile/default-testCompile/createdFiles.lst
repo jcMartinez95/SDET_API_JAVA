@@ -1,0 +1,9 @@
+com\unosquare\SecondApiPull.class
+apiCore\ApiCore.class
+deserialize\JsonConverter.class
+com\unosquare\FirstApiPull.class
+com\unosquare\ThirdApiPull.class
+deserialize\Post\Register.class
+deserialize\Get\Resource.class
+deserialize\Post\Users.class
+deserialize\Get\Users.class

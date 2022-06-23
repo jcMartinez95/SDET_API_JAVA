@@ -1,9 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+
+<suite name="JavaAPi">
+
+  <test name="JavaApiTests - First API Pull ">
     <classes>
-      <class name="com.unosquare.FirstApiTest"/>
-    </classes>
+      <class name="com.unosquare.FirstApiPull">
+		  <methods>
+		   <include name = "firstPullRequest_firstApproach"/>
+		   <include name = "firstPullRequest_secondApproach"/>
+		  </methods>
+      </class>
+  	</classes>
   </test> <!-- Test -->
+  
+  <test name="JavaApiTests - Second API Pull ">
+    <classes>
+      <class name="com.unosquare.SecondApiPull">
+		  <methods>
+		   <include name = "secondPullRequest_firstApproach"/>
+		   <include name = "secondPullRequest_secondApproach"/>
+		  </methods>
+      </class>
+  	</classes>
+  </test> <!-- Test -->
+  
+  <test name="JavaApiTests - Third API Pull ">
+    <classes>
+      <class name="com.unosquare.ThirdApiPull">
+		  <methods>
+		   <include name = "thirdPullRequest"/>
+		  </methods>
+      </class>
+  	</classes>
+  </test> <!-- Test -->
+  
+  <test name="JavaApiTests - Fourth API Pull ">
+    <classes>
+      <class name="com.unosquare.FourthApiPull">
+		  <methods>
+		   <include name = "finalPullRequest_GET_1"/>
+		   <include name = "finalPullRequest_GET_2"/>
+		   <include name = "finalPullRequest_GET_3"/>
+		   <include name = "finalPullRequest_GET_4"/>
+		   <include name = "finalPullRequest_POST_1"/>
+		   <include name = "finalPullRequest_POST_2"/>
+		   <include name = "finalPullRequest_POST_3"/>
+		   <include name = "finalPullRequest_POST_4"/>
+		   <include name = "finalPullRequest_PUT_1"/>
+		  </methods>
+      </class>
+  	</classes>
+  </test> <!-- Test -->
+  
 </suite> <!-- Suite -->
